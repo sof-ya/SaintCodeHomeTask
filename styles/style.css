@@ -140,11 +140,22 @@ footer {
     justify-content: space-between;
     margin-top: 80px;
   }
+  .input {
+    width: 100%;
+  }
 }
 
 @media (max-width: 466px) {
+  header {
+    height: 227px;
+  }
+
   .title {
     font-size: 45px;
+  }
+
+  .subtitle {
+    margin-bottom: 30px;
   }
 
   .input {
